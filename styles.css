@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+.hero_section{
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+section {
+    padding: 60px 0;
+}
+.bg-dark {
+    background-color: #343a40 !important;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+.img-fluid {
+    max-height: 300px;
+    object-fit: cover;
+}
+/* Custom CSS Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
